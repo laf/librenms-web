@@ -1,0 +1,294 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jspm', '--save-dev' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 warn package.json aurelia-beginner-kit-es2016@1.0.0-beta.1.0.1 No repository field.
+5 warn package.json aurelia-beginner-kit-es2016@1.0.0-beta.1.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'jspm', null ]
+8 verbose cache add name=undefined spec="jspm" args=["jspm",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'jspm',
+9 verbose parsed url   path: 'jspm',
+9 verbose parsed url   href: 'jspm' }
+10 silly lockFile 40e8134c-jspm jspm
+11 verbose lock jspm /Users/neillathwood/.npm/40e8134c-jspm.lock
+12 silly lockFile 40e8134c-jspm jspm
+13 silly lockFile 40e8134c-jspm jspm
+14 verbose addNamed [ 'jspm', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile f3b9302e-jspm jspm@
+17 verbose lock jspm@ /Users/neillathwood/.npm/f3b9302e-jspm.lock
+18 silly addNameRange { name: 'jspm', range: '*', hasData: false }
+19 verbose url raw jspm
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jspm' ]
+21 verbose url resolved https://registry.npmjs.org/jspm
+22 info trying registry request attempt 1 at 22:52:43
+23 verbose etag "3RY14Y8YMIW0FPM76Q8O599YM"
+24 http GET https://registry.npmjs.org/jspm
+25 http 304 https://registry.npmjs.org/jspm
+26 silly registry.get cb [ 304,
+26 silly registry.get   { date: 'Sat, 28 Nov 2015 22:52:43 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     etag: '"3RY14Y8YMIW0FPM76Q8O599YM"',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-lhr6327-LHR',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1448751163.310982,VS0,VE656',
+26 silly registry.get     vary: 'Accept' } ]
+27 verbose etag jspm from cache
+28 silly addNameRange number 2 { name: 'jspm', range: '*', hasData: true }
+29 silly addNameRange versions [ 'jspm',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.3.5',
+29 silly addNameRange     '0.3.6',
+29 silly addNameRange     '0.3.7',
+29 silly addNameRange     '0.3.8',
+29 silly addNameRange     '0.3.9',
+29 silly addNameRange     '0.3.10',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.5.0-beta',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.5.6',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.5.8',
+29 silly addNameRange     '0.5.9',
+29 silly addNameRange     '0.5.10',
+29 silly addNameRange     '0.5.11',
+29 silly addNameRange     '0.5.12',
+29 silly addNameRange     '0.5.13',
+29 silly addNameRange     '0.5.14',
+29 silly addNameRange     '0.5.15',
+29 silly addNameRange     '0.5.16',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.6.6',
+29 silly addNameRange     '0.6.7',
+29 silly addNameRange     '0.6.8',
+29 silly addNameRange     '0.6.9',
+29 silly addNameRange     '0.6.10',
+29 silly addNameRange     '0.6.11',
+29 silly addNameRange     '0.6.12',
+29 silly addNameRange     '0.7.0-beta.1',
+29 silly addNameRange     '0.7.0-beta.2',
+29 silly addNameRange     '0.7.0-beta.3',
+29 silly addNameRange     '0.7.0-beta.4',
+29 silly addNameRange     '0.7.0-beta.5',
+29 silly addNameRange     '0.7.0-beta.6',
+29 silly addNameRange     '0.7.0-beta.7',
+29 silly addNameRange     '0.7.0-beta.8',
+29 silly addNameRange     '0.7.0-beta.9',
+29 silly addNameRange     '0.7.0-beta.10',
+29 silly addNameRange     '0.6.13',
+29 silly addNameRange     '0.7.0-beta.11',
+29 silly addNameRange     '0.7.0-beta.12',
+29 silly addNameRange     '0.7.0-beta.13',
+29 silly addNameRange     '0.7.0-beta.14',
+29 silly addNameRange     '0.7.0-beta.15',
+29 silly addNameRange     '0.7.0-beta.16',
+29 silly addNameRange     '0.7.0-beta.17',
+29 silly addNameRange     '0.7.0-beta.18',
+29 silly addNameRange     '0.7.0-beta.19',
+29 silly addNameRange     '0.7.0-beta.20',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.8.0-beta.1',
+29 silly addNameRange     '0.8.0-beta.2',
+29 silly addNameRange     '0.8.0-beta.3',
+29 silly addNameRange     '0.8.0-beta.4',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.8.0-beta.5',
+29 silly addNameRange     '0.8.0-beta.6',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.8.0-beta.7',
+29 silly addNameRange     '0.8.0-beta.8',
+29 silly addNameRange     '0.8.0-beta.9',
+29 silly addNameRange     '0.8.0-beta.10',
+29 silly addNameRange     '0.8.0-beta.11',
+29 silly addNameRange     '0.8.0-beta.12',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.2',
+29 silly addNameRange     '0.8.3',
+29 silly addNameRange     '0.8.4',
+29 silly addNameRange     '0.9.0-beta.1',
+29 silly addNameRange     '0.8.5',
+29 silly addNameRange     '0.9.0-beta.2',
+29 silly addNameRange     '0.8.6',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '0.10.1',
+29 silly addNameRange     '0.10.2',
+29 silly addNameRange     '0.10.3',
+29 silly addNameRange     '0.10.4',
+29 silly addNameRange     '0.10.5',
+29 silly addNameRange     '0.10.6',
+29 silly addNameRange     '0.11.0',
+29 silly addNameRange     '0.11.1',
+29 silly addNameRange     '0.11.2',
+29 silly addNameRange     '0.11.3',
+29 silly addNameRange     '0.11.4',
+29 silly addNameRange     '0.11.5',
+29 silly addNameRange     '0.11.6',
+29 silly addNameRange     '0.12.0',
+29 silly addNameRange     '0.13.0',
+29 silly addNameRange     '0.13.1',
+29 silly addNameRange     '0.13.2',
+29 silly addNameRange     '0.13.3',
+29 silly addNameRange     '0.13.4',
+29 silly addNameRange     '0.14.0',
+29 silly addNameRange     '0.15.0-beta',
+29 silly addNameRange     '0.15.0',
+29 silly addNameRange     '0.15.1',
+29 silly addNameRange     '0.15.2',
+29 silly addNameRange     '0.15.3',
+29 silly addNameRange     '0.15.4',
+29 silly addNameRange     '0.15.5',
+29 silly addNameRange     '0.15.6',
+29 silly addNameRange     '0.16.0-beta',
+29 silly addNameRange     '0.15.7',
+29 silly addNameRange     '0.16.0-beta.2',
+29 silly addNameRange     '0.16.0-beta.3',
+29 silly addNameRange     '0.16.0-beta.4',
+29 silly addNameRange     '0.16.0-beta.5',
+29 silly addNameRange     '0.16.0-beta.6',
+29 silly addNameRange     '0.16.0-beta.7',
+29 silly addNameRange     '0.16.0',
+29 silly addNameRange     '0.16.1',
+29 silly addNameRange     '0.16.2',
+29 silly addNameRange     '0.16.3',
+29 silly addNameRange     '0.16.4',
+29 silly addNameRange     '0.16.5',
+29 silly addNameRange     '0.16.6',
+29 silly addNameRange     '0.16.7',
+29 silly addNameRange     '0.16.8',
+29 silly addNameRange     '0.16.9',
+29 silly addNameRange     '0.16.10',
+29 silly addNameRange     '0.16.11',
+29 silly addNameRange     '0.16.12',
+29 silly addNameRange     '0.16.13',
+29 silly addNameRange     '0.16.14',
+29 silly addNameRange     '0.16.15' ] ]
+30 verbose addNamed [ 'jspm', '0.16.15' ]
+31 verbose addNamed [ '0.16.15', '0.16.15' ]
+32 silly lockFile b3f4c62f-jspm-0-16-15 jspm@0.16.15
+33 verbose lock jspm@0.16.15 /Users/neillathwood/.npm/b3f4c62f-jspm-0-16-15.lock
+34 silly lockFile b3f4c62f-jspm-0-16-15 jspm@0.16.15
+35 silly lockFile b3f4c62f-jspm-0-16-15 jspm@0.16.15
+36 silly lockFile f3b9302e-jspm jspm@
+37 silly lockFile f3b9302e-jspm jspm@
+38 silly resolved [ { name: 'jspm',
+38 silly resolved     description: 'Registry and format agnostic JavaScript package manager',
+38 silly resolved     version: '0.16.15',
+38 silly resolved     main: './api.js',
+38 silly resolved     author: '',
+38 silly resolved     dependencies:
+38 silly resolved      { chalk: '^1.0.0',
+38 silly resolved        'core-js': '^0.9.17',
+38 silly resolved        glob: '^5.0.10',
+38 silly resolved        'graceful-fs': '^3.0.8',
+38 silly resolved        'jspm-github': '^0.13.9',
+38 silly resolved        'jspm-npm': '^0.25.3',
+38 silly resolved        'jspm-registry': '^0.4.0',
+38 silly resolved        liftoff: '^2.1.0',
+38 silly resolved        minimatch: '^2.0.8',
+38 silly resolved        mkdirp: '~0.5.1',
+38 silly resolved        ncp: '^2.0.0',
+38 silly resolved        request: '^2.58.0',
+38 silly resolved        rimraf: '^2.4.0',
+38 silly resolved        rsvp: '^3.0.18',
+38 silly resolved        semver: '^5.0.1',
+38 silly resolved        systemjs: '0.19.6',
+38 silly resolved        'systemjs-builder': '0.14.11',
+38 silly resolved        traceur: '0.0.92',
+38 silly resolved        'uglify-js': '~2.4.23' },
+38 silly resolved     registry: 'npm',
+38 silly resolved     devDependencies: { istanbul: '^0.3.13', jshint: '~2.8.0', mocha: '~2.2.5' },
+38 silly resolved     repository: { type: 'git', url: 'https://github.com/jspm/jspm.git' },
+38 silly resolved     bin: { jspm: './jspm.js' },
+38 silly resolved     scripts:
+38 silly resolved      { test: 'npm run jshint && npm run mocha',
+38 silly resolved        istanbul: 'istanbul cover ./node_modules/.bin/_mocha -i=\'lib/**/*.js\'',
+38 silly resolved        coverage: 'npm run istanbul -- --report html',
+38 silly resolved        mocha: 'mocha',
+38 silly resolved        jshint: 'jshint api.js cli.js jspm.js lib test' },
+38 silly resolved     bugs: { url: 'https://github.com/jspm/jspm/issues' },
+38 silly resolved     homepage: 'https://github.com/jspm/jspm',
+38 silly resolved     directories: { test: 'test' },
+38 silly resolved     ignore: [ 'sandbox', 'testlibs', 'test' ],
+38 silly resolved     license: 'Apache-2.0',
+38 silly resolved     readme: 'jspm CLI\n===\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jspm/jspm?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Tips](https://tips.60devs.com/images/button-black.svg)](https://tips.60devs.com/tip/33df4abbec4d39260f49015d2457eafe)\n\nRegistry and format agnostic JavaScript package manager.\n\n* Supports installing any module format from any registry, with GitHub and npm currently provided, via [the registry API](docs/registry-api.md).\n* Couples to the [SystemJS module loader](https://github.com/systemjs/systemjs), which is built on the current draft of the [browser ES6 module loader](https://github.com/ModuleLoader/es6-module-loader) specification.\n* Carefully resolves version ranges using greedy fork minimization into flat multi-version package folders.\n* Provides tiered bundling of multi-format module trees using [SystemJS builder](https://github.com/systemjs/builder).\n* Loads and builds assets through [SystemJS plugins](https://github.com/systemjs/systemjs#plugins).\n\nSee [https://jspm.io](https://jspm.io) for a project overview.\n\nFor support, [join the Gitter room](https://gitter.im/jspm/jspm) or [Google Group](http://groups.google.com/group/jspm-io).\n\nUse `jspm --help` to see the full up-to-date list of commands.\n\nIf you are interested in contributing to the project, [please read the contributors\' guide](https://github.com/jspm/jspm-cli/wiki/Contributors%27-Guide).\n\nFor a list of community projects and tools, see the [Third-Party Resources Wiki](https://github.com/jspm/jspm-cli/wiki/Third-Party-Resources).\n\n### Documentation\n\nSee the [SystemJS](https://github.com/systemjs/systemjs) project page for SystemJS usage documentation.\n\n* [Getting Started with jspm](docs/getting-started.md)\n* [Installing Packages](docs/installing-packages.md)\n* [Plugins](docs/plugins.md)\n* [Production Workflows](docs/production-workflows.md)\n* [Publishing Packages](docs/publishing-packages.md)\n* [Registries](docs/registries.md)\n* [Linking](docs/linking.md)\n* [NodeJS Usage](docs/nodejs-usage.md)\n* [The Registry Property](docs/registry-property.md)\n* [jspm API](docs/api.md)\n* [Registry API](docs/registry-api.md)\n\n### License\n\nApache 2.0\n\n[travis-url]: https://travis-ci.org/jspm/jspm-cli\n[travis-image]: https://travis-ci.org/jspm/jspm-cli.svg?branch=master\n[downloads-image]: http://img.shields.io/npm/dm/jspm.svg\n[npm-url]: https://npmjs.org/package/jspm\n[npm-image]: http://img.shields.io/npm/v/jspm.svg\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     _id: 'jspm@0.16.15',
+38 silly resolved     _from: 'jspm@' } ]
+39 info install jspm@0.16.15 into /Users/neillathwood/Documents/librenms/librenms-web
+40 info installOne jspm@0.16.15
+41 info /Users/neillathwood/Documents/librenms/librenms-web/node_modules/jspm unbuild
+42 info preuninstall jspm@0.16.15
+43 info uninstall jspm@0.16.15
+44 verbose true,/Users/neillathwood/Documents/librenms/librenms-web/node_modules,/Users/neillathwood/Documents/librenms/librenms-web/node_modules unbuild jspm@0.16.15
+45 verbose /Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin,[object Object] binRoot
+46 info /Users/neillathwood/Documents/librenms/librenms-web/node_modules/jspm unbuild
+47 info preuninstall jspm@0.16.15
+48 info uninstall jspm@0.16.15
+49 verbose true,/Users/neillathwood/Documents/librenms/librenms-web/node_modules,/Users/neillathwood/Documents/librenms/librenms-web/node_modules unbuild jspm@0.16.15
+50 verbose /Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin,[object Object] binRoot
+51 error error rolling back Error: EACCES, unlink '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm'
+51 error error rolling back  jspm@0.16.15 { [Error: EACCES, unlink '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm']
+51 error error rolling back   errno: 3,
+51 error error rolling back   code: 'EACCES',
+51 error error rolling back   path: '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm' }
+52 error Error: EACCES, unlink '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm'
+52 error  { [Error: EACCES, unlink '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm']
+52 error   errno: 3,
+52 error   code: 'EACCES',
+52 error   path: '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm' }
+53 error Please try running this command again as root/Administrator.
+54 error System Darwin 15.0.0
+55 error command "node" "/usr/local/bin/npm" "install" "jspm" "--save-dev"
+56 error cwd /Users/neillathwood/Documents/librenms/librenms-web
+57 error node -v v0.10.22
+58 error npm -v 1.3.14
+59 error path /Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, unlink '/Users/neillathwood/Documents/librenms/librenms-web/node_modules/.bin/jspm'
+63 verbose exit [ 3, true ]
